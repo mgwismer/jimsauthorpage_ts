@@ -23,13 +23,13 @@ const BOOKS: Book[] = [
   },
 ];
 
-function Monogram() {
-  return (
-    <div className="flex h-40 w-40 items-center justify-center rounded-full border border-ochre/40 bg-white/60">
-      <span className="font-serif text-4xl text-ink">M·H</span>
-    </div>
-  );
-}
+// function Monogram() {
+//   return (
+//     <div className="flex h-40 w-40 items-center justify-center rounded-full border border-ochre/40 bg-white/60">
+//       <span className="font-serif text-4xl text-ink">M·H</span>
+//     </div>
+//   );
+// }
 
 export default function Home() {
   return (
@@ -112,7 +112,7 @@ export default function Home() {
           <p>
             Originally from Conneticutt, Jim graduated from Yale University in 1979 having
             studied Economics and Japanese language. 
-            He left for Japan in 1980 and taught for two years at <a href="https://www.hiroshimagakuin.ed.jp">Hiroshima Gakuin School</a> and then 
+            He left for Japan in 1980 and taught for two years at <a href="https://www.hiroshimagakuin.ed.jp" color="blue">Hiroshima Gakuin School</a> and then 
             two more years at the local YMCA in Hiroshima. He went on to pursue graduate 
             studies in Japanese History and received his MA at University of Washington in 
             Seattle. While enrolled in the PhD program at Stanford he returned to Japan, 
