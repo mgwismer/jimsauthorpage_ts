@@ -116,15 +116,15 @@ export default function Home() {
             two more years at the local YMCA in Hiroshima. He went on to pursue graduate 
             studies in Japanese History and received his MA at University of Washington in 
             Seattle. While enrolled in the PhD program at Stanford he returned to Japan, 
-            living in Kyoto and Osaka and occasionally teaching at the Associated Kyoto Program 
+            living in Kyoto and Osaka and started teaching at the Associated Kyoto Program 
             at Doshisha University. His investigations revealed to him some of the realities of post War Japan and how 
             the Japanese people remembered the war years. Out of these studies he published his first 
             full length book. 
           </p>
           <p>
             In 1994, he started a long and distinguished teaching career at Bucknell University, serving
-            as the chair of the East Asian Studies department, publishing multiple articles on modern 
-            Japanese history, returning to Japan for months and years at a time to continue his research.
+            as the chair of the East Asian Studies department, publishing multiple articles on developments in  
+            post-war Japan, returning to the Far East for months and years at a time to continue his research.
             For an extensive investigation into the early years of Japanese Little League he spoke with and 
             interviewed many former and current players, coaches and administrators leading him to a deeper 
             understanding of the role of baseball in the culture and a
