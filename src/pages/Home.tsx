@@ -2,7 +2,7 @@ import rotatingEarth from '../assets/images/rotating_earth.gif';
 import stockholm_pict from '../assets/images/stockholm.jpg';
 import baseball_book from '../assets/images/baseball_book.jpg';
 import victim_book from '../assets/images/victim_book.jpg';
-import umbrella_pict from '../assets/images/umbrella.jpg';
+// import umbrella_pict from '../assets/images/umbrella.jpg';
 
 
 interface Book {
