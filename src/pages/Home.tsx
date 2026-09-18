@@ -1,3 +1,10 @@
+import rotatingEarth from '../assets/images/rotating_earth.gif';
+import stockholm_pict from '../assets/images/stockholm.jpg';
+import baseball_book from '../assets/images/baseball_book.jpg';
+import victim_book from '../assets/images/victim_book.jpg';
+import umbrella_pict from '../assets/images/umbrella.jpg';
+
+
 interface Book {
   year: string;
   link: string;
@@ -12,14 +19,14 @@ const BOOKS: Book[] = [
     link: 'https://www.amazon.com/Victim-Hero-Ideologies-National-Identity/dp/0824823559/ref=sr_1_1?crid=CPX9V04948CQ&dib=eyJ2IjoiMSJ9.aaFtL2WYSZ7v3YLCi_o9S32mfNGiUk6Ekj5PDJ08ua7l_P9vlG8oWebo0qzZbYLokI2mzQhpn_iGPklk7RqTdfZQDhbGOUKO1Eo9mQEmczo1X5vyM1y-3CXCo1HKwnBQsOO_6VW9hjkzzm5DeuuIKsVreyWiXRsBx_wXqsSHjbxtZDZ5QFDS_O0FNfnobOR4O4_AajTOw_EHwlRcJABXtAEPilkxEowv7VoJpk2Tv_M.N0sX0pW_gx_1tiI6aHa0QvTGYrEqY8FfpGPHDnjW8r0&dib_tag=se&keywords=victim+as+hero&qid=1789589648&sprefix=victim+as+hero%2Caps%2C177&sr=8-1',
     title: 'The Victim as Hero: Ideologies of Peace and National Identity in Postwar Japan',
     note: 'This is the first systematic, historical inquiry into the emergence of "victim consciousness" (higaisha ishiki) as an essential component of Japanese pacifist national identity after World War II',
-    cover: '/src/assets/images/victim_book.jpg'
+    cover: victim_book
   },
   {
     year: '2026',
     link: 'https://www.amazon.com/Rounding-Bases-Little-League-Baseball-ebook/dp/B0FB3N6X1R/ref=sr_1_1?crid=SXWAJR6JK7H8&dib=eyJ2IjoiMSJ9.Wa02tZQ5nTY9ikFafNrmsqbVhgWGTWzZ-kFWdXla4g1Hpxw5HQXBKdaRL_HByQVPzAGSnZySt9URIGc83OIt7mePOhoL_zAR8HU67nneFfpIIO4AEHKqP-76hdvZmZ8SlZiELpMIpC7kP3KSat_E5s70NQ9tQsvUaZXXYY5xAeLvJJakMET5NNsprGPzDhZVq24mHBcluutXHNS5axiUPp26VXu9dNHnTvBvMyI13QE.nwlBzjcP_XqNxOzzHdg2GGMo1H69Gi6X3lTCYromDTY&dib_tag=se&keywords=rounding+the+bases&qid=1789589705&s=digital-text&sprefix=rounding+the+bases%2Cdigital-text%2C148&sr=1-1',
     title: 'Rounding the Bases: The Story of Little League Baseball in Japan',
     note: 'Rounding the Bases offers the first comprehensive history of Japanese Little League, tracing its origins near U.S. military bases in the 1950s to its rise as one of the world’s most successful youth sports programs',
-    cover: '/src/assets/images/baseball_book.jpg'
+    cover: baseball_book
   },
 ];
 
@@ -40,7 +47,7 @@ export default function Home() {
           {/* <h1 className="font-serif text-4xl leading-tight text-ink sm:text-5xl">
             Novels about memory, migration, and the weather of small towns.
           </h1> */}
-          <img src="/src/assets/images/stockholm.jpg" className="w-[30%]"/>
+          <img src={stockholm_pict} className="w-[30%]"/>
           <p className="max-w-md text-ink-soft">
             Jim Orr is an historian of modern Japan and the author of two heavily researched books and multiple
             essays and articles related to the Japanese peace movement. 
@@ -53,7 +60,7 @@ export default function Home() {
           <div className="mt-7 flex gap-6">
             <a>
               <img 
-                src="/src/assets/images/rotating_earth.gif" 
+                src={rotatingEarth}
                 alt="Rotating Globe" 
                 style={{ width: '300px', height: 'auto', mixBlendMode: 'multiply' }} 
               />
