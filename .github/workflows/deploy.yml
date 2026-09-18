@@ -54,4 +54,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           cname: www.jamesjorr.com
-          destination_dir: jimsauthorpage_ts
+          # destination_dir: jimsauthorpage_ts
