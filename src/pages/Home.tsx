@@ -155,8 +155,8 @@ export default function Home() {
           >
            jamesorr@bucknell.edu
           </a>
-          <a href="#" className="text-sm text-ink-soft hover:text-ink">
-            Instagram
+          <a href="https://www.linkedin.com/in/james-orr-29038428/" className="text-sm text-ink-soft hover:text-ink">
+            Linked In
           </a>
           <a href="#" className="text-sm text-ink-soft hover:text-ink">
             Substack
