@@ -53,7 +53,7 @@ export default function Home() {
             essays and articles related to the Japanese peace movement. 
             First traveling to Japan in 1980 as an ESL teacher and most recently spending the 2022/23 
             academic year as the resident director of the Associated Kyoto Program, he has spent over 10 
-            years in Japan including Hirohima (4 years), Kyoto (4 years), Osaka (2 years) and multiple stints 
+            years in Japan including Hiroshima (4 years), Kyoto (4 years), Osaka (2 years) and multiple stints 
             in Tokyo. For over thirty years, he taught ancient, pre-modern and modern Japanese history at Bucknell University.
             He currently lives in the Germantown section of Philadelphia
           </p>
@@ -119,7 +119,7 @@ export default function Home() {
           <p>
             Originally from Conneticutt, Jim graduated from Yale University in 1979 having
             studied Economics and Japanese language. 
-            He left for Japan in 1980 and taught for two years at <a href="https://www.hiroshimagakuin.ed.jp" color="blue">Hiroshima Gakuin School</a> and then 
+            He left for Japan in 1980 and taught for two years at <a href="https://www.hiroshimagakuin.ed.jp" className="text-sm text-ink-soft hover:text-ink text-blue-700">Hiroshima Gakuin School</a> and then 
             two more years at the local YMCA in Hiroshima. He went on to pursue graduate 
             studies in Japanese History and received his MA at University of Washington in 
             Seattle. While enrolled in the PhD program at Stanford he returned to Japan, 
