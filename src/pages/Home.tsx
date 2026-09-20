@@ -158,8 +158,8 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/james-orr-29038428/" className="text-sm text-ink-soft hover:text-ink">
             LinkedIn
           </a>
-          <a href="#" className="text-sm text-ink-soft hover:text-ink">
-            Substack
+          <a href="https://jamesorr.blogs.bucknell.edu/" className="text-sm text-ink-soft hover:text-ink">
+            Blog
           </a>
         </div>
       </section>
