@@ -150,7 +150,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-6">
           <a
-            href="mailto:mira@example.com"
+            href="mailto:jamesorr@bucknell.edu"
             className="rounded-full border border-ink px-5 py-2.5 text-sm text-ink transition-colors hover:bg-ink hover:text-paper"
           >
            jamesorr@bucknell.edu
