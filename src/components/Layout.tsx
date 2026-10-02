@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, Link } from 'react-router-dom';
 
 function TopNavLink({ to, children }: { to: string; children: ReactNode }) {
   return (
@@ -27,6 +27,12 @@ export default function Layout() {
           <nav className="flex gap-4 sm:gap-6">
             <TopNavLink to="/">Books</TopNavLink>
             <TopNavLink to="/press">Press & Events</TopNavLink>
+             <a
+              href="#contact"
+              className="text-sm text-ink-soft transition-colors hover:text-ink"
+            >
+              Get in touch
+            </a>
           </nav>
         </header>
 
