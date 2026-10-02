@@ -42,13 +42,13 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="gap-10 py-6">
-        <div className="flex gap-6 items-start">
+      <section className="py-6 sm:py-10">
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
           {/* <h1 className="font-serif text-4xl leading-tight text-ink sm:text-5xl">
             Novels about memory, migration, and the weather of small towns.
           </h1> */}
-          <img src={stockholm_pict} className="w-[30%]"/>
-          <p className="max-w-md text-ink-soft">
+          <img src={stockholm_pict} className="w-32 mx-auto sm:mx-0 sm:w-1/3 rounded-sm"/>
+          <p className="text-ink-soft">
             Jim Orr is an historian of modern Japan and the author of two heavily researched books and multiple
             essays and articles related to the Japanese peace movement. 
             First traveling to Japan in 1980 as an ESL teacher and most recently spending the 2022/23 
@@ -57,21 +57,17 @@ export default function Home() {
             in Tokyo. For over thirty years, he taught ancient, pre-modern and modern Japanese history at Bucknell University.
             He currently lives in the Germantown section of Philadelphia
           </p>
-          <div className="mt-7 flex gap-6">
-            <a>
+          <div className="mt-7 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
+            <a className="flex items-center gap-2">
               <img 
                 src={rotatingEarth}
-                alt="Rotating Globe" 
-                style={{ width: '300px', height: 'auto', mixBlendMode: 'multiply' }} 
+                alt="Rotating Globe"
+                className="h-auto w-16 sm:w-20"
+                style={{ mixBlendMode: 'multiply' }} 
               />
               World Travels
             </a>
-            <a
-              href="#contact"
-              className="self-center text-sm text-ochre transition-colors hover:text-ink"
-            >
-              Get in touch
-            </a>
+ 
           </div>
         </div>
       </section>
