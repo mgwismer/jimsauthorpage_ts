@@ -19,12 +19,12 @@ function TopNavLink({ to, children }: { to: string; children: ReactNode }) {
 export default function Layout() {
   return (
     <div className="min-h-screen">
-      <div className="mx-auto max-w-4xl px-6">
-        <header className="flex items-center justify-between py-8">
-          <NavLink to="/" className="font-serif text-lg text-ink">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <header className="flex flex-col gap-4 py-6 sm:flex-row sm:items-center sm:justify-between sm:py-8">
+          <NavLink to="/" className="ont-serif text-base sm:text-lg text-ink">
             James J. Orr
           </NavLink>
-          <nav className="flex gap-6">
+          <nav className="flex gap-4 sm:gap-6">
             <TopNavLink to="/">Books</TopNavLink>
             <TopNavLink to="/press">Press & Events</TopNavLink>
           </nav>
@@ -32,7 +32,7 @@ export default function Layout() {
 
         <Outlet />
 
-        <footer className="border-t border-line py-8 text-sm text-ink-soft">
+        <footer className="border-t border-line py-6 sm:py-8 text-sm text-ink-soft">
           © {new Date().getFullYear()} James J. Orr
         </footer>
       </div>
