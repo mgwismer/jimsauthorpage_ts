@@ -146,7 +146,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-6">
           <a
-            href="mailto:mira@example.com"
+            href="mailto:jamesorr@bucknell.edu"
             className="rounded-full border border-ink px-5 py-2.5 text-sm text-ink transition-colors hover:bg-ink hover:text-paper"
           >
            jamesorr@bucknell.edu
@@ -154,8 +154,8 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/james-orr-29038428/" className="text-sm text-ink-soft hover:text-ink">
             LinkedIn
           </a>
-          <a href="#" className="text-sm text-ink-soft hover:text-ink">
-            Substack
+          <a href="https://jamesorr.blogs.bucknell.edu/" className="text-sm text-ink-soft hover:text-ink">
+            Blog
           </a>
         </div>
       </section>
